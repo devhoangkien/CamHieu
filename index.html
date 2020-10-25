@@ -1,25 +1,83 @@
 <!DOCTYPE html>
-<html lang="vietsub">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Show yourself (lyrics)</title>
-</head>
-<body>
-    <h1>Show yourself</h1>
-    
-    <p>Every inch of me trembling
-<br>But not from the cold
-<br>Something is familiar
-<br>Like a dream I can reach but not quite hold
-<br> <br>I can sense you there
-<br>Like a friend I've always known
-<br>I'm arriving
-<br>And it feels like I am home
+    <title>HTML basic</title>
+    <style>
+        #logo {
+            color: lightgreen;
+            border: 1px solid darkblue;
+            background-image: url(./des.png);
+            background-repeat: no-repeat;
+            width: 40%;
+            text-align: center;
+        }
 
-<br><br><a href="http://ani4u.org/xem-anime/ten-ay-la-gi-the-ahihi">Your name (BD vietsub)</a>
-<br><img src="/ images / https://i.pinimg.com/originals/03/72/90/037290b3fcb6f9e575dfa823d859facf.png" 
-alt="Taku and Mitsuha kiss each other">
+        .header-p {
+            background-color: blueviolet;
+            text-align: center;
+            padding-top: 10px;
+            width: 30%;
+        }
+
+        .pl {
+            color: chartreuse;
+            background-color: brown;
+            width: 30%;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        header {
+            display: flex;
+            /*xếp hàng ngang*/
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        nav ul li {
+            padding: 2%;
+            list-style: none;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            /*xóa gạch chân thẻ a*/
+            text-align: center;
+            /*căn giữa */
+            background-color: lightsalmon;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <div id="logo">
+            <h1>w3school.com</h1>
+        </div>
+        <div class="header-p">
+            <h3>Nothing</h3>
+        </div>
+        <div class="pl">
+            <h3><a href="https://www.w3schools.com/">Truy cập</a></h3>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">One</a></li>
+            <li><a href="#">Two</a></li>
+            <li><a href="#">Three</a></li>
+            <li><a href="#">Four</a></li>
+        </ul>
+    </nav>
 
 </body>
+
 </html>
